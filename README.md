@@ -33,11 +33,6 @@ This project focuses on **logic building, DOM manipulation, data visualization, 
 
 ---
 
-## 📂 Project Structure
-
-
----
-
 ## ⚙️ How It Works
 
 1. User adds an expense with:
@@ -79,13 +74,6 @@ This project focuses on **logic building, DOM manipulation, data visualization, 
 
 Contributions, suggestions, and improvements are always welcome!  
 Feel free to fork the repository and submit a pull request.
-
----
-
-## ⭐ Support
-
-If you find this project useful or interesting, don’t forget to **star ⭐ the repository**.  
-Your support really motivates me to build more projects like this!
 
 ---
 
