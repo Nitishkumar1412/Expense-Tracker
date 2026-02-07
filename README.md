@@ -8,7 +8,7 @@ This project focuses on **logic building, DOM manipulation, data visualization, 
 
 ## 📸 Project Preview
 
-Expense_Tracker.png
+![Expense Tracker Preview](Expense_Tracker.png)
 
 ---
 
@@ -97,4 +97,9 @@ Aspiring Data Scientist & Web Developer
 
 📌 GitHub: https://github.com/Nitishkumar1412 
 📌 LinkedIn: https://www.linkedin.com/in/nitish-kumar-2908sv1412/
+
+## 🙏 Thank You
+Thank you for taking the time to explore this project.  
+If you find it useful or interesting, feel free to ⭐ star the repository and share feedback.  
+Your support and suggestions are always appreciated!
 
