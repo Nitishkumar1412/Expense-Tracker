@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Expense Tracker</h1>
+            <button id="themeBtn" onclick="toggleTheme()">🌙</button>
+        </header>
+
+        <div class="summary-cards">
+            <div class="card">
+                <p>Total Expenses</p>
+                <h2 id="totalAmount">₹0</h2>
+            </div>
+            <div class="card">
+                <p>This Month</p>
+                <h2 id="monthAmount">₹0</h2>
+            </div>
+            <div class="card">
+                <p>Entries</p>
+                <h2 id="totalEntries">0</h2>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h3 id="formTitle">Add Expense</h3>
+            <input type="text" id="descInput" placeholder="Description">
+            <input type="number" id="amountInput" placeholder="Amount">
+            <select id="categoryInput">
+                <option value="Food">Food</option>
+                <option value="Travel">Travel</option>
+                <option value="Rent">Rent</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Bills">Bills</option>
+                <option value="Other">Other</option>
+            </select>
+            <input type="date" id="dateInput">
+            <button onclick="save()">Save</button>
+            <button class="cancel-btn" id="cancelBtn" onclick="cancel()" style="display:none">Cancel</button>
+        </div>
+
+        <div class="chart-section">
+            <h3>Category Breakdown</h3>
+            <canvas id="chart" width="300" height="300"></canvas>
+            <div id="chartLegend" class="legend"></div>
+        </div>
+
+        <div class="monthly-chart-section">
+            <h3>Monthly Summary</h3>
+            <div class="bar-chart" id="barChart"></div>
+        </div>
+
+        <div class="list-section">
+            <h3>All Expenses</h3>
+            <div id="expenseList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
